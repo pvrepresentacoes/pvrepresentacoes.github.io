@@ -38,7 +38,7 @@ const About = () => {
           </h2>
           <div className="w-16 h-1 gold-gradient mx-auto rounded-full mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            A Padre Victor Representações atua no mercado de materiais de
+            A Padre Vitor Representações atua no mercado de materiais de
             construção, conectando as melhores indústrias aos lojistas e
             construtoras da região. (Personalize este texto com sua história)
           </p>

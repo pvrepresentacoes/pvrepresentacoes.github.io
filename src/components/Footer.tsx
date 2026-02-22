@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="hero-gradient py-12">
       <div className="container mx-auto px-4 text-center">
         <h3 className="font-display text-xl font-bold text-primary-foreground mb-2">
-          Padre Victor Representações
+          Padre Vitor Representações
         </h3>
         <p className="text-primary-foreground/60 text-sm mb-6">
           Conectando as melhores marcas ao seu negócio.
@@ -26,7 +26,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 pt-6">
           <p className="text-primary-foreground/40 text-xs">
-            © {new Date().getFullYear()} Padre Victor Representações. Todos os
+            © {new Date().getFullYear()} Padre Vitor Representações. Todos os
             direitos reservados.
           </p>
         </div>

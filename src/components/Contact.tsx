@@ -2,7 +2,7 @@ import { useState, FormEvent } from "react";
 import { motion } from "framer-motion";
 import { Send, Phone, MessageCircle } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5500000000000"; // Substitua pelo seu número
+const WHATSAPP_NUMBER = "5535998117351";
 
 const Contact = () => {
   const [loading, setLoading] = useState(false);
@@ -14,7 +14,7 @@ const Contact = () => {
 
     const form = e.currentTarget;
     const formData = new FormData(form);
-    formData.append("access_key", "SUA_CHAVE_WEB3FORMS_AQUI");
+    formData.append("access_key", "bd1a1a87-b96f-4c7f-bb4a-cec319d11515");
 
     try {
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -160,12 +160,6 @@ const Contact = () => {
                 <Phone size={18} />
                 Chamar no WhatsApp
               </a>
-              <p className="text-xs text-muted-foreground mt-3 text-center">
-                Substitua o número no arquivo{" "}
-                <code className="bg-muted px-1.5 py-0.5 rounded text-xs">
-                  src/components/Contact.tsx
-                </code>
-              </p>
             </div>
 
             <div className="bg-card rounded-xl p-8 border border-border shadow-sm">
@@ -173,16 +167,13 @@ const Contact = () => {
                 Informações
               </h3>
               <p className="text-muted-foreground mb-2">
-                📍 Sua localização aqui
+                📍 Rua Padre Alessandro Ferloni 119, Ludovico Pavoni - Eloi Mendes MG, 37110-000
               </p>
               <p className="text-muted-foreground mb-2">
-                📧 seu@email.com
+                📧 pvrepvendas@gmail.com
               </p>
               <p className="text-muted-foreground">
-                📞 (00) 0000-0000
-              </p>
-              <p className="text-xs text-muted-foreground mt-4">
-                (Atualize com seus dados reais)
+                📞 (35) 99811-7351
               </p>
             </div>
           </motion.div>
