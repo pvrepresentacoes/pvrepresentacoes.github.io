@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           <a href="#inicio" className="flex items-center gap-2">
             <span
-              className={`text-xl font-display font-bold transition-colors ${
+              className={`text-lg sm:text-xl font-display font-bold transition-colors ${
                 scrolled ? "text-primary" : "text-primary-foreground"
               }`}
             >
