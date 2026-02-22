@@ -40,7 +40,7 @@ const About = () => {
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
             A Padre Vitor Representações atua no mercado de materiais de
             construção, conectando as melhores indústrias aos lojistas e
-            construtoras da região. (Personalize este texto com sua história)
+            construtoras da região.
           </p>
         </motion.div>
 
