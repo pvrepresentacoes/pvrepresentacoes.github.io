@@ -9,7 +9,7 @@ const Footer = () => {
           Conectando as melhores marcas ao seu negócio.
         </p>
 
-        <div className="flex justify-center gap-6 mb-6">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-6">
           <a href="#inicio" className="text-primary-foreground/70 hover:text-accent text-sm transition-colors">
             Início
           </a>
