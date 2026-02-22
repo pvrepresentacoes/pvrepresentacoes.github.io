@@ -30,9 +30,6 @@ const Hero = () => {
             Representamos as melhores marcas do mercado com excelência e
             compromisso.
           </p>
-         /* <p className="text-sm text-primary-foreground/60 max-w-lg mx-auto mb-10">
-            (Texto de apresentação genérico — personalize com suas informações)
-          </p>*/
         </motion.div>
 
         <motion.div
