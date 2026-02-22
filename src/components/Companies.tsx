@@ -31,7 +31,7 @@ const companies = [
     color: "30 40% 50%",
   },
   {
-    name: "Lapiase Granitos",
+    name: "LA Pias e Granitos",
     description:
       "Fornecedora de granitos de alta qualidade para bancadas, pisos e revestimentos. Materiais nobres selecionados para projetos residenciais e comerciais.",
     url: "https://www.instagram.com/lapiasegranitos/",
