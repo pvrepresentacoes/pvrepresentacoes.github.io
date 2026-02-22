@@ -51,18 +51,18 @@ const Hero = () => {
             Fale Conosco
           </a>
         </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 1.2, duration: 0.6 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2"
-        >
-          <a href="#sobre" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">
-            <ArrowDown size={28} className="animate-bounce" />
-          </a>
-        </motion.div>
       </div>
+
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.2, duration: 0.6 }}
+        className="absolute bottom-12 left-1/2 -translate-x-1/2 z-10"
+      >
+        <a href="#sobre" className="text-primary-foreground/50 hover:text-primary-foreground transition-colors">
+          <ArrowDown size={28} className="animate-bounce" />
+        </a>
+      </motion.div>
     </section>
   );
 };
